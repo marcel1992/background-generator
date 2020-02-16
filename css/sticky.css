@@ -1,0 +1,596 @@
+@font-face {
+    font-family: AbhayaLibre-Medium;
+    src: url('font/AbhayaLibre-Medium.ttf')
+}
+
+
+.date
+{
+margin-top: 0;
+
+margin-left: 0px;
+margin-right: 0px;
+padding: 5px 251px 19px 0px;
+
+position: absolute;
+font-size: small;
+font-family: AbhayaLibre-Medium;
+text-indent: 20px;
+font-style: italic;
+
+}
+
+.date{
+    color: tomato;
+  }
+
+ .textAreaClass
+ {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    background-size: 50px;
+    
+    width: 300px; 
+    font-family: AbhayaLibre-Medium;
+    padding: 20px 29px 20px 20px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255, 168, 240)), torgb(255, 168, 240));
+    background: -moz-linear-gradient(100% 100% 90deg,rgb(255, 168, 240), rgb(235, 0, 196));
+    
+    color: black;
+    
+    
+ } 
+.removesticky 
+{
+    position: relative;
+    border-style: none;
+    
+    margin: 0px 10px 0px 320px;
+    font-size: larger;
+    color: #ffffff;
+    background: #c52d2daf;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+}
+.removesticky:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 196, 0);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(255, 196, 0);
+}
+
+#list {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+  right: 120px;
+  top: 50px;
+  width: 300px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  font-family: AbhayaLibre-Medium;
+  
+
+}
+
+li
+{
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+    user-select: none;
+    padding-left: 25px;
+    content: '';
+    list-style-type: none;
+
+    
+    background-image:  url('images/bulletpoint.svg');
+    background-repeat: no-repeat;
+   
+    background-size: 5%;
+}
+
+/*.imageimage {
+    
+    color: #fff;
+    text-decoration-line: line-through;
+    
+  }*/
+
+.span {
+    
+    font-size:50%;
+    padding-left:250px;
+    
+}
+
+#addBtn 
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+#addBtn
+{
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 50px;
+    font-size: larger;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255, 255, 255, 0.2));
+}  
+
+#addBtn:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 196, 0);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(255, 196, 0);
+}
+#addBtn:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(255, 196, 0);
+    border-left: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#addBtn:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#addBtn:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    border-right: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#addBtn:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#container 
+{
+    color: white;
+}
+textarea
+{
+
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+ #sticky::placeholder
+ {
+     font-family:AbhayaLibre-Medium ;
+     font-size: small;
+ }
+
+
+ #content
+ {
+     margin-left: 40px ;
+     margin-top: 50px;
+ }
+
+
+ #save
+{
+    
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 20px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255, 255, 255, 0.2));
+}  
+
+#save:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 196, 0);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(255, 196, 0);
+}
+#save:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(255, 196, 0);
+    border-left: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#save:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#save:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    border-right: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#save:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#buttonAdd
+{
+    float: left;
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 25px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255, 255, 255, 0.2));
+}  
+
+#buttonAdd:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 196, 0);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(255, 196, 0);
+}
+#buttonAdd:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(255, 196, 0);
+    border-left: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#buttonAdd:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#buttonAdd:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    border-right: 2px solid rgb(255, 196, 0);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#buttonAdd:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#reverse
+{
+    float: left;
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 25px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent,rgba(199, 199, 199, 0.2));*/
+}  
+
+#reverse:hover
+{
+    color: rgb(41, 15, 0);
+    background: rgb(255, 0, 140);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(255, 0, 140);
+}
+#reverse:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(255, 0, 140);
+    border-left: 2px solid rgb(255, 0, 140);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#reverse:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#reverse:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(255, 0, 140);
+    border-right: 2px solid rgb(255, 0, 140);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#reverse:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#toDoList
+{
+    float: left;
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 25px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
+}  
+
+#toDoList:hover
+{
+    color: rgb(0, 0, 0);
+    background: #00f7ff;
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px #00f7ff;
+}
+#toDoList:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #00f7ff;
+    border-left: 2px solid #00f7ff;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#toDoList:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#toDoList:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #00f7ff;
+    border-right: 2px solid #00f7ff;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#toDoList:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#capitalize
+{
+    float: left;
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 25px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#ffffff);
+}  
+
+#capitalize:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(0, 212, 64);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(0, 212, 64);
+}
+#capitalize:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(0, 212, 64);
+    border-left: 2px solid rgb(0, 212, 64);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#capitalize:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#capitalize:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(0, 212, 64);
+    border-right: 2px solid rgb(0, 212, 64);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#capitalize:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+
+#oldnote
+{
+    float: left;
+    position: relative;
+    padding: 5px 15px;
+    margin: 50px 15px 0 25px;
+    font-size: small;
+    color: #ffffff;
+    background: #000000;
+    font-family: AbhayaLibre-Medium;
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border: 0;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#ffffff);
+}  
+
+#oldnote:hover
+{
+    color: rgb(0, 0, 0);
+    background: rgb(38, 0, 255);
+    transition-delay: 0.3s;
+    box-shadow: 0 0 50px rgb(38, 0, 255);
+}
+#oldnote:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(38, 0, 255);
+    border-left: 2px solid rgb(38, 0, 255);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#oldnote:hover:before
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
+#oldnote:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid rgb(38, 0, 255);
+    border-right: 2px solid rgb(38, 0, 255);
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
+#oldnote:hover:after
+{
+    width: 100%;
+    height: 100%;
+    transition-delay: 0s;
+}
